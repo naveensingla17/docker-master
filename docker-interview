@@ -8,4 +8,6 @@ Is docker host and docker client on different machine or same machine ?
 What is docker registry ?
 Ans: Docker hub
 
+What is podman ?
+Ans: More popular then docker these days, docker is open source tool now previosly with redhat. Now podman is redhat product.
 
