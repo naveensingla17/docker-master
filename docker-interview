@@ -1,5 +1,11 @@
 what is docker host ?
+
 What is daemon ?
   Ans: Background process
 
-  
+Is docker host and docker client on different machine or same machine ?
+
+What is docker registry ?
+Ans: Docker hub
+
+
