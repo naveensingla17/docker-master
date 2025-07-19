@@ -11,10 +11,14 @@ Ans: Docker hub
 What is podman ?
 Ans: More popular then docker these days, docker is open source tool now previosly with redhat. Now podman is redhat product.
 
-What is shim in docker architecture ?
-Ans: Daemonless container
-
 What is containerd in docker architecture ?
-Ans: background process
+Ans: background process, containerd is docker daemon or containerd is service of docker daemon.
+
+What is shim in docker architecture ?
+Ans: Daemonless container, 
+
+What is runc in docker architcture ?
+Ans: Interface to kernel primitives, container runtime
+
 
 What is 
