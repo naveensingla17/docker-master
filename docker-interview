@@ -21,4 +21,12 @@ What is runc in docker architcture ?
 Ans: Interface to kernel primitives, container runtime
 
 
-What is 
+runc + shim construct --> container
+
+What is namespace ?
+Ans: Isolated name given to a application, to distinguish.
+
+Basic docker commands ?
+Ans: docker build, docker pull, docker run
+
+
