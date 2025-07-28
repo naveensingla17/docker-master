@@ -45,11 +45,15 @@ Ans: docker push <docker hub repository>:<tag name> [before this need to run doc
 
 
 #### Intermediate level questions
-Why we use docker system prune
+Why we use cmd "docker system prune"
 Ans: To remove:
   a. All stopped containers
   b. All network not used by at-least one container
   c. All dangling images [means images doesn't have tags] 
   d. Unused build cache
+
+Why we use cmd "docker images prune"
+Ans:
+  
 
 #### Advanced level questions
