@@ -40,6 +40,10 @@ What is resource allotment ?
 How to rename the image or create image copy with new tag?
 Ans: Docker tag <image name> <docker hub repository>:<tag name>
 
+How to push docker image?
+Ans: docker push <docker hub repository>:<tag name> [before this need to run docker login command to login]
+
+
 #### Intermediate level questions
 
 #### Advanced level questions
