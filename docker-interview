@@ -31,8 +31,14 @@ Ans: Isolated name given to a application, to distinguish.
 Basic docker commands ?
 Ans: docker build, docker pull, docker run
 
-// Dockerfile related
-What is difference between RUN, CMD & ENTRYPOINT
+// Dockerfile related 
+What is difference between RUN, CMD & ENTRYPOINT ? 
+
+What is resource allotment ?
+
+
+How to rename the image or create image copy with new tag?
+Ans: Docker tag <image name> <docker hub repository>:<tag name>
 
 #### Intermediate level questions
 
