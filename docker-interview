@@ -55,5 +55,7 @@ Ans: To remove following cache data
 Why we use cmd "docker images prune"
 Ans:
   
+Docker inspect commands:
+Ans: 
 
 #### Advanced level questions
