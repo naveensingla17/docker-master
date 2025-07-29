@@ -58,4 +58,12 @@ Ans:
 Docker inspect commands:
 Ans: 
 
+Troubleshooting commands
+Ans: 
+docker inspect <image name> 
+docker insoect <container image >
+
+docker logs <container name> -f
+
+
 #### Advanced level questions
