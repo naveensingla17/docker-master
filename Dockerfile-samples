@@ -1,4 +1,4 @@
-### Sample 1
+### Example 1
 FROM naveensingla17/webserver:webserver_v1.3
 
 LABEL maintainer="naveen.singla17@gmail.com"
@@ -6,13 +6,30 @@ LABEL version="2.1"
 LABEL
 
 
-### Sample 1
+### Example 2
+ARG osver=8
+ARG dirname=/myapp
+ARG gname=tgindia
+ARG uname=ekamjeet
+ARG myappport=8000
 
-### Sample 1
+FROM centos:$osver
 
-### Sample 1
+LABEL maintainer="Ekamjeet singh"
 
-### Sample 1
+RUN groupadd $gname && \
+    useradd -m -G $gname $uname && \
+    mkdir -p $dirname && \
+    chown $uname:$gname  $dirname
 
-### Sample 1
+CMD ["sh", "-c", "echo Welcome $uname your groupname is $gname and port number is $myappport"]
+
+
+### Example 3
+
+### Example 4
+
+### Example 5
+
+### Example 6
 
