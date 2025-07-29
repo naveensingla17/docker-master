@@ -8,12 +8,13 @@ LABEL
 
 ### Example 2
 ARG osver=8
+
+FROM centos:$osver
+
 ARG dirname=/myapp
 ARG gname=tgindia
 ARG uname=ekamjeet
 ARG myappport=8000
-
-FROM centos:$osver
 
 LABEL maintainer="Ekamjeet singh"
 
@@ -21,6 +22,8 @@ RUN groupadd $gname && \
     useradd -m -G $gname $uname && \
     mkdir -p $dirname && \
     chown $uname:$gname  $dirname
+
+EXPOSE $myappport
 
 CMD ["sh", "-c", "echo Welcome $uname your groupname is $gname and port number is $myappport"]
 
