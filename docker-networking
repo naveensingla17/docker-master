@@ -1,1 +1,2 @@
-docker ls
+docker network ls
+docker network create -driver bridge tgbridge --subnet 192.168.1.0/24 --gateway 192.168.1.250
