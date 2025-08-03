@@ -36,6 +36,9 @@ What is difference between RUN, CMD & ENTRYPOINT ?
 
 What is resource allotment ?
 
+What is command to check volume ?
+Ans: Dcoker volums ls
+
 
 How to rename the image or create image copy with new tag?
 Ans: Docker tag <image name> <docker hub repository>:<tag name>
