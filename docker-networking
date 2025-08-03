@@ -2,3 +2,4 @@ docker network ls
 docker network create -driver bridge tgbridge --subnet 192.168.1.0/24 --gateway 192.168.1.250
 docker network rm <network id>
 docker network connect mycomoanybridge C53 ### To associate another ethernet to communicate two machine
+ 
